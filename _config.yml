@@ -100,10 +100,10 @@ share-links-active:
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-156608940-1"
 
 # Google Tag Manager ID
-#gtm: ""
+# gtm: ""
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -155,8 +155,8 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
+timezone: "Asia/Taipei"
+markdown: kramdown  
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
