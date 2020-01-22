@@ -1,16 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+不斷學習、不斷把玩知識，期待能有專業的見解以及達成自許的個人成就，以這樣的方式不斷活著
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Kakusi Lin
+- 2017，國立清華大學統計所畢業
+- 2017，接觸 python 的開發，deep learning 的相關論文研究以及實作
+- 2019，使用 Pytorch 實作 deep learning 相關方法，並獨自維護模型開發的系統
+- 2020 ~ 現今，重拾在統計所的日子裡的那份自我，進行自我檢視，並開始撰寫個人網誌，記錄自己的學習步調
 
-What else do you need?
 
-### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
