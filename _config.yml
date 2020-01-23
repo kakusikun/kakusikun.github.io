@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Data to viz: "https://www.data-to-viz.com/"
-  Github: "https://github.com/kakusikun"
+    - first: "https://kakusikun.github.io/2020-01-22-first-post/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -67,9 +67,9 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   # rss: true
-  email: "oo24514@gmail.com"
+  # email: "oo24514@gmail.com"
   # facebook: deanattali
-  # github: daattali
+  github: kakusikun
   # twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
@@ -85,10 +85,10 @@ social-network-links:
 #  yelp: yourname
 
 # Select which share links to show in posts
-share-links-active:
-  twitter: true
+# share-links-active:
+#   twitter: true
   facebook: true
-  linkedin: true
+#   linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
