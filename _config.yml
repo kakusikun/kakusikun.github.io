@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Data to viz: "https://www.data-to-viz.com/"
-  Github: "https://github.com/kakusikun"
+    - first: "https://kakusikun.github.io/2020-01-22-first-post/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -69,7 +69,7 @@ social-network-links:
   # rss: true
   email: "oo24514@gmail.com"
   # facebook: deanattali
-  # github: daattali
+  github: "https://github.com/kakusikun"
   # twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
