@@ -35,10 +35,13 @@ hashable 來自於為了讓資料的存取更加快速地進行查找，基本�
 - hash table
     - index 與資料間 mapping 的地方
 
-<center> 
+<center>
+<a href="https://en.wikipedia.org/wiki/Hash_table">
+  <img src="/img/hashtable.png" alt="None">
+</a>
 
-<a href="https://en.wikipedia.org/wiki/Hash_table"><img src="/img/hashtable.png></a>
-
+<br>
+<em>From Wikipedia</em>
 </center>
 
 - hash function 讓資料與 index 的關係與搜尋資料時所使用的 key 切開管理，假設僅有四筆資料，但卻讓 key 與 index 直接對應，直接用 key 搜尋資料，而如果 key 為一個很大的數字 (index 以數字表示) 時，如 100 ，表示 hash table 是一個相當 sparse 的狀態卻需要用到空間 100 的狀態去儲存，又或是 key 為字串或是其他不是與 index 相同表示方式時，都會帶來空間浪費或是不方便，因此利用 hash function 進行 key 與 index 的 mapping 管理會更好，而關於 hash function 的設計便不再話下，詳見[此處](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
