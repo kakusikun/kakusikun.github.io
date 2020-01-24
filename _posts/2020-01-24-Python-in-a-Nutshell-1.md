@@ -37,7 +37,7 @@ hashable 來自於為了讓資料的存取更加快速地進行查找，基本�
 
 <center> 
 
-[![](https://i.imgur.com/18B52mN.png) ](https://en.wikipedia.org/wiki/Hash_table)
+<a href="https://en.wikipedia.org/wiki/Hash_table"><img src="/img/hashtable.png></a>
 
 </center>
 
