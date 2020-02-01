@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Python in a nutshell 閱讀筆記(一)
+title: Python in a nutshell 閱讀筆記-1
 tags: [reading, python]
 ---
 
-# Python in a Nutshell，閱讀筆記(一)
+# Python in a Nutshell，閱讀筆記-1
 
 閱讀前已經有一定程度上對 python 的認識，所以著重於先前使用 python 時未注意的細節上進一步了解
 

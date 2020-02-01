@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Python in a nutshell 閱讀筆記(一)
+title: Python in a nutshell 閱讀筆記-2
 tags: [reading, python]
 ---
 
-# Python in a Nutshell，閱讀筆記(二)
+# Python in a Nutshell，閱讀筆記-2
 
-在上次的 [Python in a Nutshell，閱讀筆記(一)](https://kakusikun.github.io/2020-01-24-Python-in-a-Nutshell-1/) 提到 callable 的物件，其中 generator 是比較陌生的，所以針對 generator 好好細看一下
+在上次的 [Python in a Nutshell，閱讀筆記-1](https://kakusikun.github.io/2020-01-24-Python-in-a-Nutshell-1/) 提到 callable 的物件，其中 generator 是比較陌生的，所以針對 generator 好好細看一下
 
 ## generator
 
