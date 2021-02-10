@@ -20,7 +20,6 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Data to viz: "https://www.data-to-viz.com/"
-    - first: "https://kakusikun.github.io/2020-01-22-first-post/"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
 
@@ -38,10 +37,6 @@ round-avatar: true
 #title-img: /path/to/image
 
 
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: Kakusikun
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
