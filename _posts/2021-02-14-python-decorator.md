@@ -9,7 +9,7 @@ tags: [python, research]
 有時也需要繼承的類別可以在格式或是參數上，使用通用的規則來呈現或檢查等等，因此考慮用父類別在子類別 method 上的 decorator
 
 
-```python=
+{% highlight python %}
 class A:
 
     @classmethod
@@ -40,14 +40,13 @@ class ToolForA:
 # decorator_for_other_cls, args ('ToolForA',)
 # decorator_for_other_cls, kwargs {'kwargs': 'ToolForA_kwargs'}
 # other_cls ToolForA
-
-```
+{% endhighlight %}
 
 根據上面的程式，**一個類別在別的類別上的 decorator**，與一般的 decorator 差不多，最外層的參數是取得 decorator 的參數，內部包的另一層 function 所取得的參數就是需要拿到的類別
 
 一旦執行程式，在 python 找到 ```ToolForA``` 的定義後就會第一步傳入 decorator 的參數，然後取得類別 ```ToolForA```
 
-```python=
+{% highlight python %}
 class ChildA(A):
     @A.decorator_for_other_cls_method('ChildForAMethod', kwargs='ChildForAMethod_kwargs')
     def child_a_method(self, method_args, wkwargs='method_kwargs'):
@@ -64,7 +63,7 @@ child_a.child_a_method('method_args', wkwargs='method_kwargs')
 # method child_a_method
 # method, args ('method_args',)
 # method, kwargs {'wkwargs': 'method_kwargs'}
-```
+{% endhighlight %}
 
 根據上面的程式，**父類別在子類別 method 上的 decorator**，在傳入參數的部分並沒有太大差異，但需要包住兩層 function（wrap 與 wrap2），wrap 取得需要拿到的子類別 method，而 wrap2 才是進一步取得外部向子類別 method 傳入的參數
 
